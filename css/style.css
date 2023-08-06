@@ -48,7 +48,9 @@ body {
 }
 
 .hero-container {
-    display: block;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
     background: url('https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?cs=srgb&dl=pexels-luis-gomes-546819.jpg&fm=jpg') center center no-repeat;
     background-size: cover;
     height: 80vh;
@@ -57,9 +59,7 @@ body {
 }
 
 .hero-content {
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
+    
     width: 100%;
     max-width: 1000px;
     text-align: center;
